@@ -7,6 +7,11 @@ img {
   justify-content: space-between;
 }
 
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 #firstqtr {
 
 }
@@ -46,9 +51,8 @@ img {
 #imgheader {
   background-image: url('https://assets.new.siemens.com/siemens/assets/api/uuid:7d067788-85d5-4eb8-a68b-7edd15442a95/width:3840/quality:high/digital-enterprise-virtual-summit-highres.jpg');
   background-size: cover;
-  height: 150px;
+  height: 140px;
   width: 100%;
-  flex-shrink: 0;
 }
 
 html, body {
@@ -73,4 +77,8 @@ p1 {
   left: 734px;
   font-family: 'Lato', sans-serif;
   font-style: italic;
+}
+
+div {
+
 }
