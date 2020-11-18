@@ -2,6 +2,11 @@ img {
     border-radius: 50%;
   }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
 #firstqtr {
 
 }
@@ -39,8 +44,11 @@ img {
 }
 
 #imgheader {
-  background-image: url('https://images.idgesg.net/images/article/2018/10/artificial-intelligence_brain_machine-learning_digital-transformation_world-networking-100777429-large.jpg');
+  background-image: url('https://assets.new.siemens.com/siemens/assets/api/uuid:7d067788-85d5-4eb8-a68b-7edd15442a95/width:3840/quality:high/digital-enterprise-virtual-summit-highres.jpg');
   background-size: cover;
+  height: 150px;
+  width: 100%;
+  flex-shrink: 0;
 }
 
 html, body {
@@ -51,4 +59,17 @@ html, body {
 h1 {
   margin-top: 0;
   color: white;
+  text-align: center;
+  font-family: 'Bad Script', cursive;
+  font-size: 50px;
+}
+
+p1 {
+  color: white;
+  font-size: 25px;
+  position: relative;
+  bottom: 50px;
+  left: 730px;
+  font-family: 'Lato', sans-serif;
+  font-style: italic;
 }
