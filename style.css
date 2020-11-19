@@ -101,3 +101,16 @@ body {
   background-color: #007bff;
 }
 
+.layout-box1{
+  position: relative;
+  left: 14%;
+  top: 50px;
+  width: 1250px;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 25px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
