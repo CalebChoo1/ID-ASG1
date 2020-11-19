@@ -6,7 +6,7 @@ img {
 
 #img-position {
   position: relative;
-  bottom: 65px;
+  bottom: 110px;
 }
 
 .container {
@@ -94,11 +94,35 @@ h2 {
 }
 
 h3 {
-  padding: 0;
-  position: relative;
-  bottom: 35px;
   font-size: 50px;
   font-family: 'Lato', sans-serif;
+  color: white;
+}
+
+#aboutme {
+  padding: 0;
+  position: relative;
+  bottom: 90px;
+}
+
+#cert {
+  padding: 0;
+}
+
+#edu {
+  padding: 0;
+}
+
+#skills {
+  padding: 0;
+}
+
+#int {
+  padding: 0;
+}
+
+#contact {
+  padding: 0;
 }
 
 p1 { 
@@ -118,12 +142,13 @@ body {
 .layout-box1{
   position: relative;
   left: 14%;
-  top: 50px;
+  top: 100px;
   width: 1250px;
+  height: 530px;
   background-color: rgba(255, 255, 255, 0.952);
   border: 2px solid black;
   border-radius: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -137,5 +162,6 @@ body {
   background-color: #A9A9A9;
   position: relative;
   left: 0px;
+  bottom: 92px;
 }
 
