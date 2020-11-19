@@ -51,8 +51,14 @@ img {
 }
 
 #secondqtr {
-
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  top: 150px;
 }
+
 #thirdqtr {
 
 }
@@ -71,6 +77,11 @@ html, body {
   margin: 0; 
   padding: 0;
 }
+
+body {
+  background-color: #191970;
+}
+
 
 h1 {
   margin-top: 0;
@@ -100,29 +111,28 @@ h3 {
 }
 
 #aboutme {
-  padding: 0;
   position: relative;
   bottom: 90px;
 }
 
 #cert {
-  padding: 0;
+
 }
 
 #edu {
-  padding: 0;
+
 }
 
 #skills {
-  padding: 0;
+
 }
 
 #int {
-  padding: 0;
+
 }
 
 #contact {
-  padding: 0;
+
 }
 
 p1 { 
@@ -133,10 +143,6 @@ p1 {
   position: relative;
   bottom: 20px;
   left: 20px;
-}
-
-body {
-  background-color: #191970;
 }
 
 .layout-box1{
