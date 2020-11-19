@@ -51,7 +51,7 @@ img {
 #imgheader {
   background-image: url('https://assets.new.siemens.com/siemens/assets/api/uuid:7d067788-85d5-4eb8-a68b-7edd15442a95/width:3840/quality:high/digital-enterprise-virtual-summit-highres.jpg');
   background-size: cover;
-  height: 140px;
+  height: 200px;
   width: 100%;
 }
 
@@ -65,20 +65,23 @@ h1 {
   color: white;
   text-align: center;
   font-family: 'Bad Script', cursive;
-  font-size: 50px;
+  font-size: 65px;
+  position: relative;
   top: 10px;
 }
 
-p1 {
+h2 {
+  text-align: center;
   color: white;
-  font-size: 25px;
-  position: relative;
-  bottom: 40px;
-  left: 734px;
+  font-size: 30px;
   font-family: 'Lato', sans-serif;
   font-style: italic;
+  font-weight: lighter;
+  position: relative;
+  bottom: 40px;
 }
 
-div {
 
+body {
+  background-color: #007bff;
 }
