@@ -10,11 +10,17 @@ img {
 .button-container {
   display: flex;
   justify-content: space-evenly;
+  position: relative;
+  bottom: 73px;
 }
 
 #firstqtr {
-
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
+
 #secondqtr {
 
 }
@@ -26,15 +32,13 @@ img {
 }
 
 .button {
-  display: inline-block;
   padding: 14px 25px;
   font-size: 20px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
-  outline: none;
   color: #fff;
-  background-color: #3371FF;
+  background-color: #007bff;
   border: none;
   border-radius: 10px;
 }
@@ -51,7 +55,7 @@ img {
 #imgheader {
   background-image: url('https://assets.new.siemens.com/siemens/assets/api/uuid:7d067788-85d5-4eb8-a68b-7edd15442a95/width:3840/quality:high/digital-enterprise-virtual-summit-highres.jpg');
   background-size: cover;
-  height: 200px;
+  height: 260px;
   width: 100%;
 }
 
@@ -81,6 +85,10 @@ h2 {
   bottom: 40px;
 }
 
+p1 { 
+  text-align: center;
+  color: white;
+}
 
 body {
   background-color: #007bff;
