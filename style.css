@@ -9,9 +9,9 @@ img {
 
 .button-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   position: relative;
-  bottom: 73px;
+  bottom: 77px;
 }
 
 #firstqtr {
@@ -55,7 +55,7 @@ img {
 #imgheader {
   background-image: url('https://assets.new.siemens.com/siemens/assets/api/uuid:7d067788-85d5-4eb8-a68b-7edd15442a95/width:3840/quality:high/digital-enterprise-virtual-summit-highres.jpg');
   background-size: cover;
-  height: 260px;
+  height: 265px;
   width: 100%;
 }
 
