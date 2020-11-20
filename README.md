@@ -5,8 +5,9 @@ my skills and my interests. This would make it easier for companies to know more
  
 ## Design Process
  
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-For my design, I wanted my website to have each section in a rectangle box. This makes my design neat and easier to read. 
+For my design, I wanted my website to have each section in a rectangle box. This makes my design neat and easier to read. When companies are looking to hire me, they are
+able to easily see my information withn ease. This allows them to quickly decide whether i meet their job requirements. The buttons at the top of my website also make it
+easier for the users to navigate the website.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
