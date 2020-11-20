@@ -26,7 +26,7 @@ img {
   width: 150px;
   height: 150px;
   position: relative;
-  bottom: 200px;
+  bottom: 165px;
 }
 
 #img-sports {
@@ -151,7 +151,7 @@ h3 {
 
 #exp {
   position: relative;
-  bottom: 180px;
+  bottom: 150px;
 }
 
 #skills {
@@ -181,7 +181,7 @@ p2 {
   font-family: 'Lato', sans-serif;
   font-weight: normal;
   position: relative;
-  bottom: 151px;
+  bottom: 115px;
 }
 
 #li-1 {
