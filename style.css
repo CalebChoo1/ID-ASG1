@@ -11,14 +11,28 @@ img {
   width: 100%;
 }
 
-#img-position {
+#img-me {
   position: relative;
   bottom: 110px;
 }
 
-#img-pos2 {
+#img-cert {
   position: relative;
-  bottom: 80px;
+  bottom: 115px;
+}
+
+#img-exp {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  bottom: 200px;
+}
+
+#img-sports {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
 }
 
 .container {
@@ -132,12 +146,12 @@ h3 {
 
 #cert {
   position: relative;
-  bottom: 40px;
+  bottom: 100px;
 }
 
 #exp {
   position: relative;
-
+  bottom: 180px;
 }
 
 #skills {
@@ -162,15 +176,31 @@ p1 {
   left: 20px;
 }
 
-li {
+p2 {
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  position: relative;
+  bottom: 151px;
+}
+
+#li-1 {
   padding: 0;
   margin: 0;
   font-size: 20px;
   font-family: 'Lato', sans-serif;
   font-weight: normal;
   position: relative;
-  bottom: 50px;
+  bottom: 90px;
   left: 20px;
+}
+
+#li-2 {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
 }
 
 /* layout boxes for About Me section */
@@ -201,9 +231,10 @@ li {
 }
 /* layout boxes for About Me section */
 
+/* layout box for Certificates section */
 .layout-box2{
   position: relative;
-  top: 200px;
+  top: 300px;
   bottom: -100px;
   left: 268px;
   width: 600px;
@@ -212,13 +243,15 @@ li {
   background-color: rgba(255, 255, 255, 0.795);
   border: 2px solid black;
 }
+/* layout box for Certificates section */
 
+/* layout box for Experience section */
 .layout-box3{
   position: relative;
   left: 1017px;
-  bottom: 300px;
+  bottom: 155px;
   width: 600px;
-  height: 530px;
+  height: 450px;
   border-radius: 25px;
   background-color: rgba(255, 255, 255, 0.795);
   border: 2px solid black;
