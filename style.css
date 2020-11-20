@@ -16,6 +16,11 @@ img {
   bottom: 110px;
 }
 
+#img-pos2 {
+  position: relative;
+  bottom: 80px;
+}
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -62,12 +67,13 @@ img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  position: relative;
-  top: 150px;
 }
 
 #secondqtr-2 {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #thirdqtr-1 {
@@ -125,10 +131,12 @@ h3 {
 }
 
 #cert {
-
+  position: relative;
+  bottom: 40px;
 }
 
-#edu {
+#exp {
+  position: relative;
 
 }
 
@@ -155,11 +163,17 @@ p1 {
 }
 
 li {
+  padding: 0;
+  margin: 0;
   font-size: 20px;
   font-family: 'Lato', sans-serif;
   font-weight: normal;
+  position: relative;
+  bottom: 50px;
+  left: 20px;
 }
 
+/* layout boxes for About Me section */
 .layout-box1{
   position: relative;
   left: 14%;
@@ -185,14 +199,27 @@ li {
   left: 0px;
   bottom: 92px;
 }
+/* layout boxes for About Me section */
 
 .layout-box2{
   position: relative;
-  left: 300px;
+  top: 200px;
+  bottom: -100px;
+  left: 268px;
+  width: 600px;
+  height: 450px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.795);
+  border: 2px solid black;
+}
+
+.layout-box3{
+  position: relative;
+  left: 1017px;
+  bottom: 300px;
   width: 600px;
   height: 530px;
   border-radius: 25px;
   background-color: rgba(255, 255, 255, 0.795);
   border: 2px solid black;
 }
-
