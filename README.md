@@ -9,10 +9,9 @@ For my design, I wanted my website to have each section in a rectangle box. This
 able to easily see my information withn ease. This allows them to quickly decide whether i meet their job requirements. The buttons at the top of my website also make it
 easier for the users to navigate the website.
 
-adobe xd: https://xd.adobe.com/view/cc101f93-2dfd-4b76-b106-9150ca27356f-9943/
+As a manager looking to hire an employee, I would want to know the potential employee well so that i can decide if he meets the job requirements.
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+adobe xd: https://xd.adobe.com/view/cc101f93-2dfd-4b76-b106-9150ca27356f-9943/
 
 ## Features
 
