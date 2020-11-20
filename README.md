@@ -1,6 +1,6 @@
 # ID-ASG1
 # Caleb's personal portfolio
-This website is made to promote myself to companies when i am looking for a job in the future. It will contain information about me, my certificates, my past educations,
+This website is made to promote myself to companies when i am looking for a job in the future. It will contain information about me, my certificates, my work experiences,
 my skills and my interests. This would make it easier for companies to know more about me and contact me if i meet their job requirements.
  
 ## Design Process
@@ -9,12 +9,10 @@ For my design, I wanted my website to have each section in a rectangle box. This
 able to easily see my information withn ease. This allows them to quickly decide whether i meet their job requirements. The buttons at the top of my website also make it
 easier for the users to navigate the website.
 
+adobe xd: https://xd.adobe.com/view/cc101f93-2dfd-4b76-b106-9150ca27356f-9943/
+
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. 
-These files should themselves either be included as a pdf file in the project itself (in an separate directory)
-Include the Adobe XD wireframe as a folder. You can include the XD share url. 
 
 ## Features
 
@@ -26,16 +24,10 @@ In this section, you should go over the different parts of your project, and des
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-### Features Left to Implement
-- Another feature idea
-
 ## Technologies Used
-
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+-Adobe XD
+-HTML
+-CSS
 
 ## Testing
 
