@@ -14,14 +14,19 @@ As a manager looking to hire an employee, I would want to know the potential emp
 adobe xd: https://xd.adobe.com/view/cc101f93-2dfd-4b76-b106-9150ca27356f-9943/
 
 ## Features
+1. The header consists of a background image related to technology. It also has a title and a welcome text below it.
+2. The 4 buttons inside the header each lead to a section of the page once it is clicked by the user.
+3. My first section is "About Me" which consists a photo and description of me.
+4. My second section is "Certificates & Experience" which consists of all my certificates and awards, as well as my work experience
+5. My third section is "Skills & Interests" which consists of a list of my skills, images and a description of my hobbies.
+6. My fourth and last section is "Contact Me" which consists of a form with 3 inputs name, email and comments/enquiries.
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Existing Features
 - Feature 1 - allows users X to achieve Y, by having them fill out Z
 - ...
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+
 
 ## Technologies Used
 -Adobe XD
