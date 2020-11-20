@@ -2,7 +2,14 @@ img {
   border-radius: 50%;
   max-width: 100%;
   height: auto;
-  }
+}
+
+#imgheader {
+  background-image: url('https://assets.new.siemens.com/siemens/assets/api/uuid:7d067788-85d5-4eb8-a68b-7edd15442a95/width:3840/quality:high/digital-enterprise-virtual-summit-highres.jpg');
+  background-size: cover;
+  height: 265px;
+  width: 100%;
+}
 
 #img-position {
   position: relative;
@@ -50,27 +57,29 @@ img {
   align-items: center;
 }
 
-#secondqtr {
+#secondqtr-1 {
   display: flex;
   justify-content: center;
-  flex-direction: row;
   align-items: center;
+  flex-direction: column;
   position: relative;
   top: 150px;
 }
 
-#thirdqtr {
+#secondqtr-2 {
 
 }
+
+#thirdqtr-1 {
+
+}
+
+#thirdqtr-2 {
+
+}
+
 #fourthqtr {
 
-}
-
-#imgheader {
-  background-image: url('https://assets.new.siemens.com/siemens/assets/api/uuid:7d067788-85d5-4eb8-a68b-7edd15442a95/width:3840/quality:high/digital-enterprise-virtual-summit-highres.jpg');
-  background-size: cover;
-  height: 265px;
-  width: 100%;
 }
 
 html, body {
@@ -81,7 +90,6 @@ html, body {
 body {
   background-color: #191970;
 }
-
 
 h1 {
   margin-top: 0;
@@ -105,6 +113,7 @@ h2 {
 }
 
 h3 {
+  padding: 0;
   font-size: 50px;
   font-family: 'Lato', sans-serif;
   color: white;
@@ -145,13 +154,19 @@ p1 {
   left: 20px;
 }
 
+li {
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+}
+
 .layout-box1{
   position: relative;
   left: 14%;
   top: 100px;
   width: 1250px;
   height: 530px;
-  background-color: rgba(255, 255, 255, 0.952);
+  background-color: rgba(255, 255, 255, 0.795);
   border: 2px solid black;
   border-radius: 25px;
   padding-bottom: 10px;
@@ -169,5 +184,15 @@ p1 {
   position: relative;
   left: 0px;
   bottom: 92px;
+}
+
+.layout-box2{
+  position: relative;
+  left: 300px;
+  width: 600px;
+  height: 530px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.795);
+  border: 2px solid black;
 }
 
