@@ -40,7 +40,27 @@ img {
   width: 150px;
   height: 150px;
   position: relative;
-  bottom: 145px;
+  bottom: 65px;
+}
+
+#img-ppt {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  right: 200px;
+  bottom: 165px;
+  background-color: white;
+}
+
+#img-word {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  left: 200px;
+  bottom: 245px;
+  background-color: white;
 }
 
 .container {
@@ -167,7 +187,7 @@ h3 {
 
 #skills {
   position: relative;
-  bottom: 126px;
+  bottom: 45px;
 }
 
 #int {
@@ -212,7 +232,7 @@ p2 {
   margin: 0;
   position: relative;
   right: 80px;
-  bottom: 118px;
+  bottom: 193px;
   font-size: 20px;
   font-family: 'Lato', sans-serif;
   font-weight: normal;
