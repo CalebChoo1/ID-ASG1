@@ -1,9 +1,11 @@
+/* CSS to make image round and responsive */
 img {
   border-radius: 50%;
   max-width: 100%;
   height: auto;
 }
 
+/* CSS for header image */
 #imgheader {
   background-image: url('https://assets.new.siemens.com/siemens/assets/api/uuid:7d067788-85d5-4eb8-a68b-7edd15442a95/width:3840/quality:high/digital-enterprise-virtual-summit-highres.jpg');
   background-size: cover;
@@ -11,40 +13,40 @@ img {
   width: 100%;
 }
 
+/* CSS for profile picture */
 #img-me {
+  width: 180px;
+  height: 180px;
   position: relative;
   bottom: 110px;
 }
 
+/* CSS for Certificate icon */
 #img-cert {
+  width: 150px;
+  height: 150px;
   position: relative;
   bottom: 116px;
 }
 
+/* CSS for Experience icon */
 #img-exp {
-  border-radius: 50%;
   width: 150px;
   height: 150px;
   position: relative;
   bottom: 164px;
 }
 
-#img-sports {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-}
-
+/* CSS for Skill icon */
 #img-skills {
-  border-radius: 50%;
   width: 150px;
   height: 150px;
   position: relative;
   bottom: 65px;
 }
 
+/* CSS for PowerPoint icon */
 #img-ppt {
-  border-radius: 50%;
   width: 80px;
   height: 80px;
   position: relative;
@@ -53,8 +55,8 @@ img {
   background-color: white;
 }
 
+/* CSS for Word icon */
 #img-word {
-  border-radius: 50%;
   width: 80px;
   height: 80px;
   position: relative;
@@ -63,11 +65,26 @@ img {
   background-color: white;
 }
 
-.container {
-  display: flex;
-  justify-content: space-between;
+/* CSS for Interest icon */
+#img-int {
+  width: 150px;
+  height: 150px;
+  position: relative;
 }
 
+/* CSS for Sport image */
+#img-sports {
+  width: 80px;
+  height: 80px;
+}
+
+/* CSS for Netflix icon */
+#img-nf {
+  width: 80px;
+  height: 80px;
+}
+
+/* Flex container to spread buttons evenly */
 .button-container {
   display: flex;
   justify-content: space-around;
@@ -75,6 +92,7 @@ img {
   bottom: 75px;
 }
 
+/* CSS for buttons */
 .button {
   padding: 14px 25px;
   font-size: 20px;
@@ -88,60 +106,37 @@ img {
   border-radius: 10px;
 }
 
+/* CSS for buttons in hover state */
 .button:hover {
   background-color: #33B1FF
 }
 
+/* CSS for buttons when clicked */
 .button:active {
   background-color: #33B1FF;
   transform: translateY(4px);
 }
 
-#firstqtr {
+/* Flex container for all sections */
+#flexcontainer {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
-#secondqtr-1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-#secondqtr-2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-#thirdqtr-1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-#thirdqtr-2 {
-
-}
-
-#fourthqtr {
-
-}
-
+/* CSS to set margin and padding to 0 for entire website */
 html, body {
   margin: 0; 
   padding: 0;
 }
 
+/* Background color for body tag */
 body {
   background-color: #191970;
 }
 
+/* CSS for h1 tag */
 h1 {
   margin-top: 0;
   color: white;
@@ -152,6 +147,7 @@ h1 {
   top: 10px;
 }
 
+/* CSS for h2 tag */
 h2 {
   text-align: center;
   color: white;
@@ -163,6 +159,7 @@ h2 {
   bottom: 40px;
 }
 
+/* CSS for h3 tag */
 h3 {
   padding: 0;
   font-size: 50px;
@@ -170,34 +167,41 @@ h3 {
   color: white;
 }
 
+/* CSS for position of h3 element (About Me) */
 #aboutme {
   position: relative;
   bottom: 90px;
 }
 
+/* CSS for position of h3 element (Certificates) */
 #cert {
   position: relative;
   bottom: 100px;
 }
 
+/* CSS for position of h3 element (Experience) */
 #exp {
   position: relative;
   bottom: 150px;
 }
 
+/* CSS for position of h3 element (Skills) */
 #skills {
   position: relative;
   bottom: 45px;
 }
 
+/* CSS for position of h3 element (Interests) */
 #int {
 
 }
 
+/* CSS for position of h3 element (Contact Me) */
 #contact {
 
 }
 
+/* CSS for p1 tag */
 p1 { 
   text-align: left;
   font-size: 25px;
@@ -208,7 +212,9 @@ p1 {
   left: 20px;
 }
 
+/* CSS for p2 tag */
 p2 {
+  text-align: left;
   font-size: 20px;
   font-family: 'Lato', sans-serif;
   font-weight: normal;
@@ -216,6 +222,15 @@ p2 {
   bottom: 115px;
 }
 
+/* CSS for p3 tag */
+p3 {
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  position: relative;
+}
+
+/* CSS for list 1 */
 #li-1 {
   padding: 0;
   margin: 0;
@@ -227,6 +242,7 @@ p2 {
   left: 20px;
 }
 
+/* CSS for list 2 */
 #li-2 {
   padding: 0;
   margin: 0;
@@ -238,7 +254,7 @@ p2 {
   font-weight: normal;
 }
 
-/* layout boxes for About Me section */
+/* Layout box for About Me section */
 .layout-box1{
   position: relative;
   left: 14%;
@@ -253,6 +269,7 @@ p2 {
   padding-right: 50px;
 }
 
+/* Grayt layout box for About Me section */
 .boxed {
   padding-left: 20px;
   padding-top: 20px;
@@ -264,7 +281,6 @@ p2 {
   left: 0px;
   bottom: 92px;
 }
-/* layout boxes for About Me section */
 
 /* layout box for Certificates section */
 .layout-box2{
@@ -278,7 +294,6 @@ p2 {
   background-color: rgba(255, 255, 255, 0.795);
   border: 2px solid black;
 }
-/* layout box for Certificates section */
 
 /* layout box for Experience section */
 .layout-box3{
@@ -291,7 +306,6 @@ p2 {
   background-color: rgba(255, 255, 255, 0.795);
   border: 2px solid black;
 }
-/* layout box for Experience section */
 
 /* layout box for Skills section */
 .layout-box4{
@@ -304,5 +318,14 @@ p2 {
   background-color: rgba(255, 255, 255, 0.795);
   border: 2px solid black;
 }
-/* layout box for Skills section */
+
+/* layout box for Interests section */
+.layout-box5{
+  position: relative;
+  width: 600px;
+  height: 450px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.795);
+  border: 2px solid black;
+}
 
