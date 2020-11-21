@@ -70,18 +70,25 @@ img {
   width: 150px;
   height: 150px;
   position: relative;
+  bottom: 65px;
 }
 
 /* CSS for Sport image */
 #img-sports {
   width: 80px;
   height: 80px;
+  position: relative;
+  right: 200px;
+  bottom: 164px;
 }
 
 /* CSS for Netflix icon */
 #img-nf {
   width: 80px;
   height: 80px;
+  position: relative;
+  left: 200px;
+  bottom: 243px;
 }
 
 /* Flex container to spread buttons evenly */
@@ -193,7 +200,8 @@ h3 {
 
 /* CSS for position of h3 element (Interests) */
 #int {
-
+  position: relative;
+  bottom: 44px;
 }
 
 /* CSS for position of h3 element (Contact Me) */
@@ -228,6 +236,7 @@ p3 {
   font-family: 'Lato', sans-serif;
   font-weight: normal;
   position: relative;
+  bottom: 190px;
 }
 
 /* CSS for list 1 */
@@ -322,6 +331,8 @@ p3 {
 /* layout box for Interests section */
 .layout-box5{
   position: relative;
+  left: 1020px;
+  bottom: 405px;
   width: 600px;
   height: 450px;
   border-radius: 25px;
