@@ -18,7 +18,7 @@ img {
 
 #img-cert {
   position: relative;
-  bottom: 115px;
+  bottom: 116px;
 }
 
 #img-exp {
@@ -26,13 +26,21 @@ img {
   width: 150px;
   height: 150px;
   position: relative;
-  bottom: 165px;
+  bottom: 164px;
 }
 
 #img-sports {
   border-radius: 50%;
   width: 150px;
   height: 150px;
+}
+
+#img-skills {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  bottom: 145px;
 }
 
 .container {
@@ -91,7 +99,10 @@ img {
 }
 
 #thirdqtr-1 {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #thirdqtr-2 {
@@ -155,7 +166,8 @@ h3 {
 }
 
 #skills {
-
+  position: relative;
+  bottom: 126px;
 }
 
 #int {
@@ -198,6 +210,9 @@ p2 {
 #li-2 {
   padding: 0;
   margin: 0;
+  position: relative;
+  right: 80px;
+  bottom: 118px;
   font-size: 20px;
   font-family: 'Lato', sans-serif;
   font-weight: normal;
@@ -256,3 +271,18 @@ p2 {
   background-color: rgba(255, 255, 255, 0.795);
   border: 2px solid black;
 }
+/* layout box for Experience section */
+
+/* layout box for Skills section */
+.layout-box4{
+  position: relative;
+  left: 270px;
+  top: 49px;
+  width: 600px;
+  height: 450px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.795);
+  border: 2px solid black;
+}
+/* layout box for Skills section */
+
