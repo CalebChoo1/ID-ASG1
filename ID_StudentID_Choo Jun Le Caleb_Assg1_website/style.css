@@ -340,3 +340,31 @@ p3 {
   border: 2px solid black;
 }
 
+/* CSS for input box Name */
+#Name {
+  height: 25px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+/* CSS for input box Email */
+#Email {
+  height: 25px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+/* CSS for input box Comments */
+#Comment {
+  height: 70px;
+  width: 600px;
+  border-radius: 10px;
+}
+
+/* CSS for label */
+label {
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+}
+
