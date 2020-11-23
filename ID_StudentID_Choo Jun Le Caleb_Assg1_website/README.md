@@ -33,31 +33,35 @@ adobe xd: https://xd.adobe.com/view/cc101f93-2dfd-4b76-b106-9150ca27356f-9943/
 -CSS
 
 ## Testing
+1. Contact Me form:
+    1. Go to the "Contact Me" section
+    2. When I try to submit an empty form, an error message about the required fields appears.
+    3. When I try to submit the form with an invalid email address a relevant error message does not appear.
+    4. When I try to submit the form with all inputs valid and a success message does not appear.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+2. Buttons:
+    1. When I click the About Me button, I am directed to the correct section.
+    2. When I click the Certificates & Experience button, I am directed to the correct section.
+    3. When I click the Skills & Interests button, I am directed to the correct section.
+    4. When I click the Contact Me button, I am directed to the correct section.
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- None of my text was copied.
 
 ### Media
-- The photos used in this site were obtained from ...
-
+- Certificate Image was obtained from (https://www.freepik.com/free-photos-vectors/certified-icon)
+- Experience Image was obtained from (https://www.letsintern.com/blog/5-ways-you-can-gain-work-experience-when-still-in-college/)
+- Skills Image was obtained from (http://www.nhme.com.au/recent/skilled-occupation-list/)
+- Microsoft PowerPoint Icon was obtained from (https://en.wikipedia.org/wiki/Microsoft_PowerPoint)
+- Microsoft Word Icon was obtained from (https://en.wikipedia.org/wiki/Microsoft_Word)
+- Interests Image was obtaiend from (https://www.freelancer.co.ke/contest/Design-a-Logo-for-the-word-Interest-272752-byentry-6728884?w=f&ngsw-bypass=)
+- Sports Image was obtained from (https://www.pinterest.com/pin/298082069090742763/)
+- Netflix Image was obtained from (https://www.youtube.com/channel/UCWOA1ZGywLbqmigxE4Qlvuw)
+  
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from this portfolio (https://www.portfoliogen.com/mbishop/)
 
 
