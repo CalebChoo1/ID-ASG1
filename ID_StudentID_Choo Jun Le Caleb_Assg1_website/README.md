@@ -23,9 +23,8 @@ adobe xd: https://xd.adobe.com/view/cc101f93-2dfd-4b76-b106-9150ca27356f-9943/
 
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
+- 4 buttons in header - Allows users to click on the buttons which would direct them to the respective section indicated on the button.
+- Contact Me form - Allows users to leave feedback or comments by entering their name and email address, followed by clicking the submit button.
 
 
 ## Technologies Used
