@@ -229,7 +229,7 @@ h3 {
 /* CSS for position of h3 element (Experience) */
 #exp {
   position: relative;
-  bottom: 150px;
+  bottom: 125px;
 }
 
 /* CSS for position of h3 element (Skills) */
@@ -241,7 +241,7 @@ h3 {
 /* CSS for position of h3 element (Interests) */
 #int {
   position: relative;
-  bottom: 44px;
+  bottom: 24px;
 }
 
 /* CSS for position of h3 element (Contact Me) */
