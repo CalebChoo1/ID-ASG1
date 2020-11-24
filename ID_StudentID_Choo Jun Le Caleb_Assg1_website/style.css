@@ -124,8 +124,48 @@ img {
   transform: translateY(4px);
 }
 
-/* Flex container for all sections besides Contact Me section */
-#flexcontainer {
+/* Flex container for About Me section */
+#flexcontainer1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Flex container for Certificates section */
+#flexcontainer2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Flex container for Experience section */
+#flexcontainer3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Flex container for Skills section */
+#flexcontainer4 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Flex container for Interests section */
+#flexcontainer5 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Flex container for Contact Me section */
+#flexcontainer6 {
   display: flex;
   justify-content: center;
   flex-direction: column;
