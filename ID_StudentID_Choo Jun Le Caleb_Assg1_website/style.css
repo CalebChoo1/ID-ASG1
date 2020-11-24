@@ -34,7 +34,7 @@ img {
   width: 150px;
   height: 150px;
   position: relative;
-  bottom: 164px;
+  bottom: 140px;
 }
 
 /* CSS for Skill icon */
@@ -70,7 +70,7 @@ img {
   width: 150px;
   height: 150px;
   position: relative;
-  bottom: 65px;
+  bottom: 44px;
 }
 
 /* CSS for Sport image */
@@ -79,7 +79,7 @@ img {
   height: 80px;
   position: relative;
   right: 200px;
-  bottom: 164px;
+  bottom: 145px;
 }
 
 /* CSS for Netflix icon */
@@ -88,7 +88,7 @@ img {
   height: 80px;
   position: relative;
   left: 200px;
-  bottom: 243px;
+  bottom: 224px;
 }
 
 /* Flex container to spread buttons evenly */
@@ -250,29 +250,26 @@ h3 {
   bottom: 118px;
 }
 
-/* CSS for p1 tag */
-p1 { 
+/* CSS for paragraph in About Me section */
+#p1 { 
   text-align: left;
   font-size: 25px;
   font-family: 'Lato', sans-serif;
   font-weight: normal;
-  position: relative;
-  bottom: 20px;
-  left: 20px;
 }
 
-/* CSS for p2 tag */
-p2 {
+/* CSS for paragraph in Experience section*/
+#p2 {
   text-align: left;
   font-size: 20px;
   font-family: 'Lato', sans-serif;
   font-weight: normal;
   position: relative;
-  bottom: 115px;
+  bottom: 114px;
 }
 
-/* CSS for p3 tag */
-p3 {
+/* CSS for third paragraph */
+#p3 {
   font-size: 20px;
   font-family: 'Lato', sans-serif;
   font-weight: normal;
@@ -349,7 +346,7 @@ p3 {
 .layout-box3{
   position: relative;
   left: 1017px;
-  bottom: 155px;
+  bottom: 154px;
   width: 600px;
   height: 450px;
   border-radius: 25px;
@@ -373,7 +370,7 @@ p3 {
 .layout-box5{
   position: relative;
   left: 1020px;
-  bottom: 410px;
+  bottom: 405px;
   width: 600px;
   height: 450px;
   border-radius: 25px;
