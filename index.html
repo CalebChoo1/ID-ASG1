@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link to normalize.css-->
+    <title>Caleb's Personal portfolio</title>
+    <link href="CSS/normalize.css" rel="stylesheet" type="text/css" />
+    <!--link to css style sheet-->
+    <link href="CSS/style.css" rel="stylesheet" type="text/css" />
+    <!--link to Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Lato:ital@1&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!--Header of my website which includes the background image and introductory text-->
+    <header id="imgheader">
+      <h1>Caleb's personal portfolio</h1>
+      <h2>Welcome to my personal portfolio website!</h2>
+    </header>
+    <!--div to act as button container-->
+    <div class="button-container">
+      <!--4 buttons-->
+      <a class="button" href="#aboutme">About Me</a>
+      <a class="button" href="#cert">Certificates & Experience</a>
+      <a class="button" href="#skills">Skills & Interests</a>
+      <a class="button" href="#contact">Contact me</a>
+    </div>
+    <!--About Me Section which includes my profile picture, description about myself as well as 2 layout boxes-->
+    <section class="layout-box1" id = "flexcontainer1">
+      <h3 id="aboutme">About Me</h3>
+      <img src="Images/profilepic.jpg" alt="Photo of Me" id="img-me">
+      <p class="boxed" id="p1">My name is Caleb Choo and I am a curious, determined and persevering person. I would be constantly asking 
+      questions<br> like 'what if?', 'why?', ''how?' and I would not give up until I found my answer. I am curious to 
+      know how computers and<br> phones are able to store all my information while keeping it safe and confidential.
+      I am looking forward to learning more<br> about programming and cyber security from my lecturers.<br><br> In the future
+      I would like to become a Software Engineer or a Cybersecurity Analyst. I have seen many Software Engineers
+      in-action and their softwares are brilliant! Personally, I would like to develop a useful software to 
+      bring convenience to<br> the lives of others. Working as a cybersecurity analyst would also be ideal as i am 
+      a very curious person. In the event<br> where a data breach occurs, I would like to get to the bottom of the 
+      incident and how it occured in the first place. With<br> my determination, I will work hard to pursue one of 
+      these careers.</p>
+    </section>
+    <!--Certificates section which includes a certificate image, my list of certificates as well as a layout box-->
+    <section class="layout-box2" id = "flexcontainer2">
+      <h3 id="cert">Certificates</h3>
+      <img src="Images/cert.jpg" alt="Cert" id="img-cert">
+      <!--nav element to style specific list-->
+      <nav id="li-1">
+        <ul>
+          <li>2016-2020: The Singapore-Cambridge General Certificate of Education (Ordinary Level)</li>
+          <li>2019: Edusave Good Progress Award</li>
+          <li>2019: Member of Class Committee</li>
+          <li>2018: Certificate of Participation<br> (Young Trail Blazers Competition 2018)</li>
+          <li>2017: National Youth Achievement Award (Bronze medal)</li>
+          <li> 2017: Certificate of Participation<br> (Community Emergency Preparedness Programme)</li>
+          <li>2016: Young Engineer Award (Bronze)</li>
+        </ul>
+      </nav>
+    </section>
+    <!--Experience section which includes a work experience image, a description of my work experience as well as a layout box-->
+    <section class="layout-box3" id = "flexcontainer3">
+      <h3 id="exp">Experience</h3>
+      <img src="Images/exp.jpg" alt="Exp" id="img-exp">
+      <p id="p2">During the holidays, I assisted my family's online business by<br> identifying popular products and recommending 
+      them to be<br> marketed. I learned how to price the products reasonably in<br> order for 
+      the business to be profitable. Additionally, I also<br> made some simple designs for mugs and 
+      t-shirts. I feel that<br> learning these techniques will definately aid my financial<br> situation in the 
+      future since online marketing can serve as<br> an external source of income.</p>
+    </section>
+    <!--Skills section which includes a "skills" image, an icon of powerpoint and word, a list of my skills as well as a layout box-->
+    <section class="layout-box4" id = "flexcontainer4">
+      <h3 id="skills">Skills</h3>
+      <img src="Images/skills.jpg" alt="Skills" id="img-skills">
+      <img src="Images/ppt.jpg" alt="ppt" id="img-ppt">
+      <img src="Images/word.jpg" alt="word" id="img-word">
+      <!--nav element to style specific list-->
+      <nav id="li-2">
+        <ul>
+          <li>Problem Solving</li>
+          <li>Essay writing</li>
+          <li>English</li>
+          <li>Tools & Technologies</li>
+          <li>Microsoft Word</li>
+          <li>Microsoft PowerPoint</li>
+          <li>Distinction in O-level Additional Mathematics</li>
+          <li>Distinction in O-level Pure Physics</li>
+        </ul>
+      </nav>
+    </section>
+    <!--Interests section which includes a Interests image, an netflix icon and sports image, a description of my interests and hobbbies as well as a layout box-->
+    <section class="layout-box5" id="flexcontainer5">
+      <h3 id="int">Interests</h3>
+      <img src="Images/interests.jpg" alt="Interests" id="img-int">
+      <img src="Images/sports.jpg" alt="Sports" id="img-sports">
+      <img src="Images/netflix.jpg" alt="Netflix" id="img-nf"><br>
+      <p id="p3">I enjoy sports a lot! I play badminton and basketball with<br> my friends 
+      or family in my free time. This year, I decided to<br> join the canoeing team as I have paddled 
+      before and it was<br> such an enjoyable experience even though I had a slight<br> difficulty in
+      balancing the boat. I also enjoy watching<br> Netflix movies or shows  in my free time! I usually watch<br> crime 
+      dramas but nowadays, I watch Korean dramas as<br> well! Due  to the recent covid-19 
+      restrictions, I have<br> encountered many exciting movies and shows!</p>
+    </section>
+    <!--Contact Me section which includes a form containing 3 inputs, Name, Email and Comments. There is also two layout boxes-->
+    <section class="layout-box6" id="flexcontainer6">
+      <h3 id="contact">Contact Me</h3>
+      <form method="GET" class="boxed2">
+        <label for="Name">Name:</label><br>
+        <input type="text" placeholder='Enter your name:' name='Name' id="Name" required /><br><br>
+        <label for="Email">Email Address:</label><br>
+        <input type="email" placeholder='Enter your email address:' name='Email' id="Email" required /><br><br>
+        <p style="padding: 0px; margin: 0px;font-size: 20px;
+        font-family: 'Lato', sans-serif;font-weight: normal;">Enter your comments or enquiries below:</p>
+        <textarea rows="4" cols="50" name="comment" id="Comment">
+        </textarea><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </body>
+</html>
