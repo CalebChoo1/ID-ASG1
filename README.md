@@ -1,5 +1,7 @@
 # ID-ASG1
 # Caleb's personal portfolio
+github page link: https://calebchoo1.github.io/IDAssignment1/
+
 This website is made to promote myself to companies when i am looking for a job in the future. It will contain information about me, my certificates, my work experiences,
 my skills and my interests. This would make it easier for companies to know more about me and contact me if i meet their job requirements.
  
